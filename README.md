@@ -1,5 +1,6 @@
 ## Human Body Part Identification Model
 
+
 This is a computer vision model designed to identify 17 parts of the human body. The parts are:
 
 - bm_arm_left
@@ -38,12 +39,12 @@ This is a computer vision model designed to identify 17 parts of the human body.
   - Low accuracy may be due to:
     - Limited dataset (318 images).
     - Low number of epochs (100).
-  -Before improving the model, I used the weights on Detectron2 and trained it using my custom dataset.
-  - I managed to train the model but did not test it on an image due to the limited GPU. I will do so once Colab has given me access to a GPU.
+      
+  - I managed to train and test the Detectron2 model.Detectron2 offered a better output compared to YOLOv8. Find the Detectron2 output image under the detectron model test output png image.
   
 - **Future Plans**:
   - Augment dataset.
-  - Increase the number of epochs during training.
+  - Increase the number of epochs used on YOLOv8 during training.
   - Re-test to improve accuracy.
 
 ### Challenges
@@ -57,4 +58,3 @@ This is a computer vision model designed to identify 17 parts of the human body.
 - Compare the performance of YOLOv8 and Detectron2.
 - Update this README with results and improvements.
 
-Stay tuned for updates!
