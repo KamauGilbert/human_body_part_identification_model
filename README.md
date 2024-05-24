@@ -40,7 +40,8 @@ This is a computer vision model designed to identify 17 parts of the human body.
     - Limited dataset (318 images).
     - Low number of epochs (100).
       
-  - I managed to train and test the Detectron2 model.Detectron2 offered a better output compared to YOLOv8. Find the Detectron2 output image under the detectron model test output png image.
+ -Find the weights of the two models under the yolov8_model_output/100 epochs and detectron_model_output folders.
+ -I have also included the jpg outputs of the models after training them and testing them on a sample image of myself.
   
 - **Future Plans**:
   - Augment dataset.
@@ -52,9 +53,4 @@ This is a computer vision model designed to identify 17 parts of the human body.
 - **Limited Data**: Training on only 318 images.
 - **Computational Limits**: Colab deactivated GPU during Detectron2 testing.
 
-### Next Steps
-
-- Train and test the model with augmented data and more epochs.
-- Compare the performance of YOLOv8 and Detectron2.
-- Update this README with results and improvements.
-
+Thrilling!!!!!!!!!
